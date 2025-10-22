@@ -11,8 +11,8 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '7397688'))
     API_HASH = str(getenv('API_HASH', 'd9f7d4b16b255a9c3fe09588aedda688'))
-    BOT_TOKEN = str(getenv('8224122078:AAHSQyPFAHxHvPbwVaaKqHKC1AnhSVOptgQ'))
-    name = str(getenv('name', 'filetolinkbot'))
+    BOT_TOKEN = str(getenv('8224122078:AAHz5PqqqeU4R7smHLOLKEcHY5k40yp8bZU'))
+    name = str(getenv('name', 'Mobievb_bot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1003113885987'))
@@ -36,5 +36,5 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://akashncp12_db_user:328OQkn1tqpy8VL3@cluster0.ir8unvk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', '-1001362659779'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'hitechbandaofficial'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
